@@ -1,0 +1,26 @@
+.equation-header {
+    font-style: italic;
+    text-shadow: 2px 2px 4px #000000;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.equation-info {
+    padding: 20px;
+}
+.arrow {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.equation-form {
+    padding: 10px;
+}
+
+
+.equation-line{
+    padding: 20px;
+    padding-right: 20px;
+}
+.equation-input{
+    border: 2px solid rgb(34, 117, 242);
+}

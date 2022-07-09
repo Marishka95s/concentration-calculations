@@ -1,0 +1,23 @@
+<div class="container" style="position:relative">
+  <h2 class="section-header">Equations Form</h2>
+  <form [formGroup]="equationsForm" name="form" #f="ngForm">
+    <label class="equation-info">Please, type the necessary equations here:</label>
+
+    <div formArrayName="equations">
+      <div class="equation-form" *ngFor="let item of equationsGetter.controls; let pointIndex=index" [formGroupName]="pointIndex">
+        <label class="equation-line"> Equation: <input formControlName="equation" class="equation-input" type="text" required /> </label>
+        <button type="button" class="btn-add" (click)="deleteEquation(pointIndex)">Delete Equation</button>
+      </div>
+
+      <button type="button" class="btn-add" (click)="addEquation()">Add Equation</button>
+      
+      <div *ngIf="equationCtrl.invalid && (equationCtrl.dirty || equationCtrl.touched)">
+          Enter equation following pattern
+        </div>
+    </div>
+
+    <button type="submit" id="getDifEq" value="getDifEq" class="btn btn-success"
+      (click)="f.form.valid && getDifferentialEquations()">Go to config & constants</button>
+
+  </form>
+</div>
