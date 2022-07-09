@@ -20,4 +20,4 @@ implemented using Angular 8.
   If that is true, the app works correctly.
   
   
-For details refer to the creator's (ybatsiun@gmail.com) [Master thesis](https://drive.google.com/file/d/1OCu9oY4p88GcZwdZEF55ZjX6YaZYkVEp/view?usp=sharing) or contact dev Mariia Kontseva (marishka95@ukr.net).
+For details refer to the creator's [Master thesis](https://drive.google.com/file/d/1OCu9oY4p88GcZwdZEF55ZjX6YaZYkVEp/view?usp=sharing) or contact the creator (ybatsiun@gmail.com) or developer Mariia Kontseva (marishka95@ukr.net).
